@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 1</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        body {
+            background-color: rgb(233, 255, 153);
+        }
+
+        p {
+            font-weight: 100;
+        }
+
+        marquee {
+            color: crimson;
+            background-color: cyan;
+            font-size: 40px;
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: 25px;
+            color: rgb(15, 18, 211);
+        }
+
+        h2 {
+            font-size: 30px;
+            color: red;
+        }
+
+        ul,
+        ol {
+            color: rgb(83, 38, 5);
+            font-size: 25px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        table {
+            justify-content: center;
+            margin: auto;
+        }
+
+        td {
+            /* border: 2px solid red; */
+            border: 2px solid red;
+            margin: 2px;
+            padding: 4px;
+            border-radius: 4px;
+            background-color: rgb(76 206 83 / 67%);
+
+        }
+
+        th {
+            border: 2px solid red;
+            margin: 2px;
+            padding: 4px;
+            /* border-radius: 4px; */
+            background-color: rgb(76 206 83 / 67%);
+        }
+
+        #profile {
+            height: 100px;
+            width: 100px;
+            float: right;
+            position: sticky;
+            top: 80px;
+        }
+        #p10{
+             width: 80%;
+             border: 2px solid lightblue;  
+             margin: auto;
+             background-color: blanchedalmond; 
+             font-size: 20px;
+        }
+        h3{
+            font-size: 25px;
+            font-weight: bold;
+            width: 500px;
+            margin: auto;
+        }
+        label{
+            font-size: 18px;
+            color: rgb(11, 11, 46);
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 title="Create HTML document with following formatting – Bold, Italics, Underline, Colors, 
+        Headings, Title, Font and Font Width, Background, Paragraph, Line Brakes, 
+        Horizontal Line, Blinking text as well as marquee text.">
+        Practical 1</h1>
+
+    <a href="index.html">PHULE CV</a><br>
+    <a href="#practical2">PRACTICAL2</a>
+    <h2>
+        <marquee behavior="" direction="right">Machine learning</marquee>
+    </h2>
+    <p>
+        <strong>Machine learning (ML)</strong> is the study of computer algorithms that can <u>improve automatically</u>
+        through experience and
+        by the use of data. It is seen as a part of <em>artificial intelligence</em>. <br><br> Machine learning
+        algorithms build
+        a
+        model based on sample data, known as "training data", in order to make predictions or decisions without being
+        explicitly programmed to do so. Machine learning algorithms are used in a wide variety of applications, such
+        as in medicine, email filtering, speech recognition, and computer vision, where it is difficult or unfeasible to
+        develop conventional algorithms to perform the needed tasks.
+    </p>
+    <hr>
+    <h1><a id="practical2"></a> Practical 2</h1>
+    <h2>Parts of Machine learning</h2>
+    <ul>
+        <li>Artificial Intelligence</li>
+        <li>Data Mining</li>
+        <li>Optimisation</li>
+        <li>Deep learning</li>
+        <li>Statistics</li>
+    </ul>
+
+    <h2>Approches to learn Machine learning</h2>
+    <ol>
+        <li>Supervised learning</li>
+        <li>Semi-supervised learning</li>
+        <li>Unsupervised learning</li>
+        <li>Reinforcement learning</li>
+        <li>Dimensionality Reduction</li>
+        <li>Training Models</li>
+
+    </ol>
+    <img src="machine.jpg" alt="">
+
+    <h1>Practical 3</h1>
+    <table>
+        <tr>
+            <th>PHULE KANT RANJAN</th>
+            <th>Roll:14049</th>
+            <th>Hansraj College</th>
+            <th>Maths</th>
+            <th>CS</th>
+        </tr>
+        <tr>
+            <td colspan="3">HTML, CSS, JAVA</td>
+            <td colspan="2" rowspan="2"><img id="profile" src="profile.jpg" alt=""></td>
+        </tr>
+        <tr>
+            <td colspan="3">COMPUTER NETWORK</td>
+        </tr>
+    </table>
+    <h1>Practical 5</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>SGPA</th>
+        </tr>
+        <tr>
+            <td>PHULE</td>
+            <td>14049</td>
+            <td>9.27</td>
+        </tr>
+        <tr>
+            <td>Aashish</td>
+            <td>17098</td>
+            <td>9.5</td>
+        </tr>
+        <tr>
+            <td>Ravi</td>
+            <td>12082</td>
+            <td>8.33</td>
+        </tr>
+    </table>
+    <h1>Practical 10</h1>
+    <div id="p10">
+    
+    
+    <h3>Subscribe to XYZ news channel and Magazine</h3><br>
+    Interested in receiving daily updates of all latest news? Well, now you can . And best of all, it is feee!
+    Just fill out this form and submit it by clicking the "send it in" button. We will put you on
+    our mailing list and you will receive your first email in 3-5days.
+    <hr>
+    Please fill the following boxes to help us to you email and our news letter.
+    <br>
+    <br>
+    <form action="backend.php">
+        <label for="1">First Name</label>
+        <div>
+            <input type="text" id="1">
+        </div>
+        <label for="2">Last Name</label>
+        <div>
+            <input type="text" id="2">
+        </div>
+        <label for="3">Business</label>
+        <div>
+            <input type="text" id="3">
+        </div>
+        <br>
+        We must have a correct Email Address to send you new letter <br>
+        <label for="4">Email Id:</label>
+        <div>
+            <input type="email" id="4">
+        </div>
+        <br>
+        <div>
+            How did you hear about the XYZ Magazine and email? <br>
+            Here on the Web <input type="radio" name="MyGender">
+            Magazine <input type="radio" name="MyGender">
+            Television <input type="radio" name="MyGender">
+            Other <input type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+            Would you like to be our regular mailing list? <br>
+            <input type="checkbox">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+
+
+
+
+
+    </form>
+</div>
+    
+
+</html>
